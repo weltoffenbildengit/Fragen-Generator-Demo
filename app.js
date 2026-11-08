@@ -114,7 +114,7 @@ function renderCi(chapterKey, branch) {
   const incident = pick(chapter.incidents);
   const topic = pick(chapter.topics);
   currentCi = `
-    <h2>Critical Incidence: ${topic}</h2>
+    <h2>Critical Incident: ${topic}</h2>
     <p>Sie sind Bereichsleiter:in in einem ${branch}. Im Fokus steht ${product}. ${incident}</p>
     <p>Die Situation ist dringend, Kundenzufriedenheit, Kosten und Warenverfügbarkeit stehen gleichzeitig unter Druck.</p>
     <h3>Auftrag</h3>
